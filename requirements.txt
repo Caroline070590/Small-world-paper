@@ -1,0 +1,29 @@
+# Core package (smallworld_qtn: representations, network_metrics, pipeline)
+numpy
+pandas
+scipy
+networkx
+
+# Figures and statistics (analysis/ scripts)
+matplotlib
+seaborn
+statsmodels
+tqdm
+joblib
+
+# Dataset-specific dependencies (only needed for the matching pipeline)
+# ECG (NSRDB, Fantasia)        -> wfdb
+# MEG / CAP sleep              -> mne
+# fMRI atlas + surface figures -> nilearn, nibabel, surfplot, neuromaps, netplotbrain
+# fMRI download (COBRE/ADHD)   -> boto3, botocore
+# HTTP downloads (EMG, resp.)  -> requests
+wfdb
+mne
+nilearn
+nibabel
+surfplot
+neuromaps
+netplotbrain
+boto3
+botocore
+requests

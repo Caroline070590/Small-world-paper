@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smallworld-qtn"
+version = "0.1.0"
+description = "Small-world topology from time-series representations (QG/QTN, GAF, MTF)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }  # CC BY 4.0 (see LICENSE)
+authors = [
+    { name = "Caroline L. Alves" },
+]
+keywords = [
+    "small-world networks",
+    "time series",
+    "quantile graphs",
+    "Gramian angular field",
+    "Markov transition field",
+    "complex networks",
+    "nonlinear dynamics",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "networkx",
+]
+
+[project.optional-dependencies]
+# Plotting and statistics used by the analysis/ scripts.
+analysis = [
+    "matplotlib",
+    "seaborn",
+    "statsmodels",
+    "tqdm",
+    "joblib",
+]
+# Dataset-specific extras (install only what a given pipeline needs).
+ecg = ["wfdb"]
+meg = ["mne"]
+sleep = ["mne"]
+fmri = ["nilearn", "nibabel", "surfplot", "neuromaps", "netplotbrain", "boto3", "botocore"]
+download = ["requests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

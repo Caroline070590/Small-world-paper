@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated preprint below."
+title: "Small-World Organization from Time-Series Representations (QG/QTN, GAF, MTF)"
+authors:
+  - family-names: Alves
+    given-names: Caroline L.
+  - family-names: Bellone
+    given-names: Camilla
+  - family-names: Hoelter
+    given-names: Jan
+  - family-names: Thielemann
+    given-names: Christiane
+  - family-names: Sallum
+    given-names: Loriz Francisco
+  - family-names: do Rosário
+    given-names: Raphael Silva
+  - family-names: de O. Toutain
+    given-names: Thaise G. L.
+  - family-names: Kalbasi
+    given-names: AmirAli
+  - family-names: Campanharo
+    given-names: Andriana S. L. O.
+version: 0.1.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+repository-code: "https://github.com/YOUR-USERNAME/smallworld-qtn"  # TODO: set your repo URL
+date-released: 2026-06-01
+identifiers:
+  - type: doi
+    value: 10.21203/rs.3.rs-9534233/v1
+    description: Research Square preprint (v1)
+preferred-citation:
+  type: article
+  title: "Small-World Organization as a Representation-Dependent Signature of Nonlinear Dynamics in Biological Time Series"
+  authors:
+    - family-names: Alves
+      given-names: Caroline L.
+    - family-names: Bellone
+      given-names: Camilla
+    - family-names: Hoelter
+      given-names: Jan
+    - family-names: Thielemann
+      given-names: Christiane
+    - family-names: Sallum
+      given-names: Loriz Francisco
+    - family-names: do Rosário
+      given-names: Raphael Silva
+    - family-names: de O. Toutain
+      given-names: Thaise G. L.
+    - family-names: Kalbasi
+      given-names: AmirAli
+    - family-names: Campanharo
+      given-names: Andriana S. L. O.
+  year: 2026
+  publisher:
+    name: "Research Square"
+  doi: "10.21203/rs.3.rs-9534233/v1"
+  url: "https://www.researchsquare.com/article/rs-9534233/v1"
+  notes: "Preprint, under review (Nature Portfolio)."

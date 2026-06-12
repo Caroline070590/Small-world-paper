@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data and outputs (not version-controlled; download via the pipelines)
+data/
+DATA/
+# Private / restricted data (e.g. calcium imaging) MUST NOT be committed
+calcium*/
+Calcium*/
+*calcium*/
+raw_data/
+private_data/
+# Generated metric tables and intermediate CSVs
+*.csv
+*.edf
+*.dat
+*.hea
+tmp_*/
+*_outputs/
+CSV-Small-world/
+abide_td_surrogate_qg_gaf_mtf/
+ds000117_raw_meg_preprocessed/
+fieldtrip_subject01_preprocessed/
+
+# Figures
+*.png
+*.pdf
+!docs/**/*.png
+!docs/**/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
