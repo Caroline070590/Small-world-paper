@@ -206,10 +206,6 @@ with `# %% ---- next notebook cell ----`. The clean core library
 was factored out of the canonical `SMALL-world-FINAL` notebook and exercised
 with an end-to-end smoke test, without changing any numerical definitions.
 
-A few Jupyter shell-magic lines (conda/datalad environment setup) inside the MEG
-module are commented out so the file imports cleanly; they are preserved as
-comments for reference.
-
 ---
 
 ## License
@@ -243,12 +239,3 @@ year, volume, and DOI once the peer-reviewed version is published.)
 A machine-readable citation is in [`CITATION.cff`](CITATION.cff).
 
 ---
-
-## TODO before publishing (please confirm)
-
-- [ ] **Repo URL** — fill in the clone URL in the Installation section and in
-      `CITATION.cff` (`repository-code`).
-- [ ] **Author order / spellings** — confirm author names and order in
-      `CITATION.cff` and `LICENSE` match the manuscript exactly.
-- [ ] **Update citation on acceptance** — replace the preprint citation/DOI with
-      the journal version once published.
