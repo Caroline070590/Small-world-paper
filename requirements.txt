@@ -1,9 +1,0 @@
-numpy
-pandas
-scipy
-networkx
-requests
-joblib
-tqdm
-mne
-wfdb
