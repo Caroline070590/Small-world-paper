@@ -5,7 +5,7 @@ Code accompanying the paper:
 > **Small-World Organization as a Representation-Dependent Signature of Nonlinear
 > Dynamics in Biological Time Series.**
 > Preprint: [DOI 10.21203/rs.3.rs-9534233/v1](https://doi.org/10.21203/rs.3.rs-9534233/v1)
-> (Research Square, 2026 — under review, Nature Portfolio)
+> (Research Square, 2026 — under review, Communications Physics, Nature Portfolio)
 
 The project studies how three time-series-to-matrix mappings — **Quantile Graphs
 (QG / QTN)**, **Gramian Angular Fields (GAF)**, and **Markov Transition Fields
