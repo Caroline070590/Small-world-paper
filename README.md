@@ -196,18 +196,6 @@ locations before running.
 
 ---
 
-## Provenance
-
-The modules under `analysis/` and `src/smallworld_qtn/preprocessing/` were
-extracted **verbatim** from the original Jupyter notebooks (kept in
-`notebooks/`, with cell outputs stripped). Notebook cell boundaries are marked
-with `# %% ---- next notebook cell ----`. The clean core library
-(`representations.py`, `network_metrics.py`, `pipeline.py`, `preprocessing/common.py`)
-was factored out of the canonical `SMALL-world-FINAL` notebook and exercised
-with an end-to-end smoke test, without changing any numerical definitions.
-
----
-
 ## License
 
 This repository (source code, documentation, and figures) is licensed under the
